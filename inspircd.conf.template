@@ -1,0 +1,26 @@
+<config format="xml">
+<define name="bindip" value="1.2.2.3">
+<define name="localips" value="&bindip;/24">
+
+####### SERVER CONFIGURATION #######
+
+<server
+        name="SERVER_HOSTNAME/FQDN"
+        description="SERVER_DESCRIPTION"
+        id="SERVER_SID"
+        network="NETWORK_NAME">
+
+
+####### ADMIN INFO #######
+
+<admin
+       name="ADMIN_NAME"
+       nick="ADMIN_NICK"
+       email="ADMIN_EMAIL">
+
+####### PORT CONFIGURATION #######
+
+<bind
+      address="SERVER_IP"
+      port="SERVER_PORT"
+      type="SERVER_TYPE">
